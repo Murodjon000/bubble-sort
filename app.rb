@@ -14,8 +14,6 @@ end
 
 bubble_sort(bubble_array)
 
-
-
 def bubble_word_sorter(arr)
   arr.length.times do
     arr.each_with_index do |_el, ind|
