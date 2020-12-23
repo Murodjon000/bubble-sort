@@ -9,10 +9,10 @@ def bubble_sort(arr)
       arr[i], arr[i + 1] = arr[i + 1], arr[i] if arr[i] > arr[i + 1]
     end
   end
-  print arr
+arr
 end
 
-bubble_sort(bubble_array)
+p bubble_sort(bubble_array)
 
 def bubble_sort_by(arr)
   arr.length.times do
