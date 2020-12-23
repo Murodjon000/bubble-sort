@@ -10,7 +10,7 @@ def bubble_sort(arr)
     end
   end
   arr
-end       
+  end       
 
 p bubble_sort(bubble_array)
 
