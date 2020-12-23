@@ -1,4 +1,4 @@
-bubble_array = [4, 5, 4, 8, 6, 11, 24, 12, 13, 25, 13, 12, 1, 1, 2, 3, 3]
+bubble_array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 def bubble_sort(arr)
   len = arr.length - 1
@@ -14,7 +14,7 @@ end
 
 bubble_sort(bubble_array)
 
-def bubble_word_sorter(arr)
+def bubble_sort_by(arr)
   arr.length.times do
     arr.each_with_index do |_el, ind|
       if arr[ind + 1]
@@ -26,4 +26,4 @@ def bubble_word_sorter(arr)
   arr
 end
 
-p bubble_word_sorter(%w[human m cat volcano]) { |left, right| left.length - right.length }
+p bubble_sort_by(%w[human m cat volcano]) { |left, right| left.length - right.length }
