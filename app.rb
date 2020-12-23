@@ -1,4 +1,6 @@
 
+bubble_array=[4,5,4,8,6,11,24,12,13,25,13,12,1]
+
 def bubble_sort(arr)
 len=arr.length-1
     len.times do |i|
@@ -14,4 +16,4 @@ print arr
 end
     
      
-bubble_sort( [4,5,4,8,6,11,24,12,13,25,13,12,1])
+bubble_sort(bubble_array)
