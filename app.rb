@@ -1,5 +1,5 @@
 
-bubble_array=[5, 6, 1, 8, 6]
+bubble_array=[4,5,4,8,6,11,24,12,13,25,13,12,1]
 
 def bubble_sort(arr)
 len=arr.length-1

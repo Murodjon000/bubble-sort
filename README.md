@@ -5,8 +5,8 @@
 The `#bubble_sort` method takes in an `array` as an `argument` and returns the sorted `array`. For example:
 
 ```ruby
-p bubble_sort(%w[5, 6, 1, 8, 6])
-# => [1, 5, 6, 6, 8]
+p bubble_sort(%w[4,5,4,8,6,11,24,12,13,25,13,12,1])
+# => [1, 4, 4, 5, 6, 8, 11, 12, 12, 13, 13, 24, 25]
 ```
 
 The `#bubble_sort_by` method takes in an `array` as an `argument`, and a `block`, and returns the sorted `array`. For example:
