@@ -9,8 +9,8 @@ def bubble_sort(arr)
       arr[i], arr[i + 1] = arr[i + 1], arr[i] if arr[i] > arr[i + 1]
     end
   end
-  arr
-  end       
+arr
+end       
 
 p bubble_sort(bubble_array)
 
