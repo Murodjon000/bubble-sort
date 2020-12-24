@@ -15,7 +15,8 @@ end
 p bubble_sort(bubble_array)
 
 def bubble_sort_by(arr)
-  arr.length.times do
+  lens=arr.length
+  lens.times do
     arr.each_with_index do |_el, ind|
       if arr[ind + 1]
         value = yield(arr[ind], arr[ind + 1])
